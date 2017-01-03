@@ -65,7 +65,7 @@ DEFAULT_REQUEST_HEADERS = {
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None,
     # 'crawler_dianhua.middlewares.ProxyMiddleWare': 1,
-    'crawler_dianhua.autoproxy.AutoProxyMiddleware': 543,
+    # 'crawler_dianhua.autoproxy.AutoProxyMiddleware': 543,
 }
 
 AUTO_PROXY = {
@@ -85,7 +85,7 @@ AUTO_PROXY = {
 ITEM_PIPELINES = {
     # 'crawler_dianhua.pipelines.ConsolePipeline': 301,
     # 'crawler_dianhua.pipelines.HbasePipline': 302,
-    # 'crawler_dianhua.pipelines.TextPipline': 303,
+    'crawler_dianhua.pipelines.TextPipline': 303,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
