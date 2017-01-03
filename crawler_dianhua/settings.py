@@ -85,7 +85,7 @@ AUTO_PROXY = {
 ITEM_PIPELINES = {
     # 'crawler_dianhua.pipelines.ConsolePipeline': 301,
     # 'crawler_dianhua.pipelines.HbasePipline': 302,
-    'crawler_dianhua.pipelines.TextPipline': 303,
+    # 'crawler_dianhua.pipelines.TextPipline': 303,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
